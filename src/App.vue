@@ -39,5 +39,7 @@
   <main class="overflow-clip">
     <SpecialSectionCard></SpecialSectionCard>
     <SectionCard image="list-2.svg" title="Light, Fast & Powerful" sub-title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br><br> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."></SectionCard>
+    <SectionCard image="list-3.svg" title="Light, Fast & Powerful" sub-title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br><br> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."></SectionCard>
+    <SectionCard image="list-4.svg" title="Light, Fast & Powerful" button="true" sub-title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br><br> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."></SectionCard>
   </main>
 </template>
