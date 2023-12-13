@@ -2,7 +2,8 @@
   import { ref, onMounted } from 'vue'
   import { RouterLink, RouterView } from 'vue-router'
 
-  import SectionCard from './components/Section-card.vue'
+  import SpecialSectionCard from './components/SpecialSectionCard.vue'
+  import SectionCard from './components/SectionCard.vue'
 </script>
 
 <template>
@@ -36,6 +37,7 @@
     <img class="absolute -z-10 -right-[25%] -top-1/3 w-[100%]" :src="`/images/hero(fixed).svg`" alt="">
   </header>
   <main class="overflow-clip">
-    <SectionCard></SectionCard>
+    <SpecialSectionCard></SpecialSectionCard>
+    <SectionCard image="list-2.svg" title="Light, Fast & Powerful" sub-title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br><br> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."></SectionCard>
   </main>
 </template>
