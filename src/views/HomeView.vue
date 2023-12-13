@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <header class="h-[110vh] max-h-[1270px] overflow-hidden 2xl:max-w-7xl sm:ml-16 lg:ml-32 2xl:mx-auto items-center flex justify-center md:justify-start relative z-20">
+  <header class="h-[110vh] sm:min-h-[623px] max-h-[1270px] overflow-hidden 2xl:max-w-7xl sm:ml-16 lg:ml-32 2xl:mx-auto items-center flex justify-center md:justify-start relative z-20">
     <div class="w-[90%] sm:w-1/2 lg:w-[45%] max-w-3xl h-fit relative text-center md:text-left">
       <h1 class="font-semibold text-xl md:text-3xl lg:text-5xl text-b-09">Introduce Your Product Quickly & Effectively</h1>
       <p class="mt-5 mb-10 text-xs md:text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br><br> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>

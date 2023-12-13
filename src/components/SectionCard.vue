@@ -15,7 +15,7 @@ const { image, title, subTitle } = toRefs(props)
 <template>
   <section :class="`mx-3 sm:mx-16 lg:mx-32 2xl:mx-0 py-24 sm:py-36 flex justify-between ${reverse ? 'lg:flex-row-reverse flex-col-reverse' : 'lg:flex-row flex-col-reverse'} items-center gap-5`">
     <div>
-      <img class="" :src="`/images/`+image" alt="">
+      <img class="max-w-2xl" :src="`/images/`+image" alt="">
       <button v-if="button" class="bg-b-11 mx-auto lg:mx-0 min-w-[180px] py-1 text-white font-medium rounded-sm mt-10 block lg:hidden">Purchase Now</button>
     </div>
     <div class="text-center lg:text-start lg:w-1/3">

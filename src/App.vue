@@ -39,10 +39,10 @@
         </RouterLink>
       </div>
       <div class="flex items-center gap-3">
-        <span class="material-symbols-outlined text-4xl cursor-pointer select-none block sm:hidden" @click="toggleMenu" v-if="menuDropDown">
+        <span class="material-symbols-outlined text-4xl cursor-pointer select-none block sm:hidden" @click="toggleMenu" v-if="!menuDropDown">
           menu
         </span>
-        <span class="material-symbols-outlined text-4xl cursor-pointer select-none block sm:hidden" @click="toggleMenu" v-if="!menuDropDown">
+        <span class="material-symbols-outlined text-4xl cursor-pointer select-none block sm:hidden" @click="toggleMenu" v-if="menuDropDown">
           close
         </span>
         <p class="text-2xl font-black text-b-37">Landing</p>
