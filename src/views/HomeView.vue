@@ -5,15 +5,15 @@
 
 <template>
   <header class="h-[110vh] max-h-[1270px] overflow-hidden 2xl:max-w-7xl sm:ml-16 lg:ml-32 2xl:mx-auto items-center flex justify-center md:justify-start relative z-20">
-    <div class="w-1/2 lg:w-[45%] max-w-3xl h-fit relative text-center md:text-left">
+    <div class="w-[90%] sm:w-1/2 lg:w-[45%] max-w-3xl h-fit relative text-center md:text-left">
       <h1 class="font-semibold text-xl md:text-3xl lg:text-5xl text-b-09">Introduce Your Product Quickly & Effectively</h1>
       <p class="mt-5 mb-10 text-xs md:text-base lg:text-lg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus <br><br> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-      <div class="gap-7 flex justify-center md:justify-start">
+      <div class="gap-7 flex flex-col sm:flex-row justify-center md:justify-start">
         <button class="bg-b-11 min-w-[180px] py-1 text-white font-semibold rounded-sm">Purchase UI Kit</button>
         <button class="border-b-09 border-2 min-w-[180px] py-1 text-b-09 font-semibold rounded-sm">Learn More</button>
       </div>
     </div>
-    <img class="absolute -z-10 min-w-[740px] filter-blur md:filter-none -right-[20%] 2xl:right-0 md:-top-5 lg:translate-y-1/2 lg:-top-16 2xl:top-1/2 2xl:transform 2xl:-translate-y-1/2 w-[80%]" :src="`/images/hero(fixed).svg`" alt="">
+    <img class="absolute -z-10 min-w-[740px] filter-blur md:filter-none -right-[20%] 2xl:right-0 md:-top-5 lg:-top-16 2xl:top-1/2 2xl:transform 2xl:-translate-y-1/2 w-[80%]" :src="`/images/hero(fixed).svg`" alt="">
   </header>
   <img class="absolute min-w-[980px] filter-blur md:filter-none -z-10 -right-1/3 2xl:right-[41%] -top-5 lg:-top-1/3 2xl:top-[600px] 2xl:transform 2xl:-translate-y-1/2 2xl:translate-x-1/2" :src="`/images/path-round(fixed).svg`" alt="">
   <main class="overflow-hidden 2xl:max-w-7xl 2xl:mx-auto">
@@ -26,7 +26,7 @@
     <img class="absolute w-[100%] -top-24 -z-10" :src="`/images/rectangle.svg`" alt="">
     <div class="items-center w-[80%] md:w-1/2 mx-auto">
       <h2 class="font-semibold text-4xl text-b-09 mb-4">A Price To Suit Everyone</h2>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+      <p class="text-sm sm:text-base">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
     </div>
     <div class="mt-20 mb-14">
       <h1 class="font-semibold text-5xl text-b-09 ">$40</h1>
