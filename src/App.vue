@@ -20,15 +20,15 @@
 <template>
   <!-- <nav class="flex justify-between  items-center py-5 px-32 backdrop-blur-md fixed w-full top-0 z-50"> -->
   <nav id="nav" class="py-5 fixed w-full top-0 z-50">
-    <div class="2xl:max-w-7xl 2xl:mx-auto mx-32 flex justify-between items-center">
-      <div class="gap-14 flex">
+    <div class="2xl:max-w-7xl 2xl:mx-auto mx-5 sm:mx-16 lg:mx-32 flex justify-between items-center">
+      <div class="gap-14 hidden sm:flex ">
         <RouterLink to="/" class="text-sm text-b-50">
           Home
         </RouterLink>
-        <RouterLink to="/" class="text-sm text-b-50">
+        <RouterLink to="/about" class="text-sm text-b-50">
           About
         </RouterLink>
-        <RouterLink to="/" class="text-sm text-b-50">
+        <RouterLink to="/contact" class="text-sm text-b-50">
           Contact
         </RouterLink>
       </div>
